@@ -5,6 +5,8 @@
 !.vscode/extensions.json
 *.code-workspace
 
+/BJBPractices/*
+
 *.db
 
 .DS_STORE
