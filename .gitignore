@@ -7,6 +7,7 @@
 
 /BJBPractices/*
 
+appsettings.json
 *.db
 
 .DS_STORE

@@ -1,0 +1,13 @@
+/home/dotnet3/DotNet/BandPractices/Application/bin/Debug/netstandard2.1/Application.deps.json
+/home/dotnet3/DotNet/BandPractices/Application/bin/Debug/netstandard2.1/Application.dll
+/home/dotnet3/DotNet/BandPractices/Application/bin/Debug/netstandard2.1/Application.pdb
+/home/dotnet3/DotNet/BandPractices/Application/bin/Debug/netstandard2.1/Domain.dll
+/home/dotnet3/DotNet/BandPractices/Application/bin/Debug/netstandard2.1/Persistence.dll
+/home/dotnet3/DotNet/BandPractices/Application/bin/Debug/netstandard2.1/Domain.pdb
+/home/dotnet3/DotNet/BandPractices/Application/bin/Debug/netstandard2.1/Persistence.pdb
+/home/dotnet3/DotNet/BandPractices/Application/obj/Debug/netstandard2.1/Application.csprojAssemblyReference.cache
+/home/dotnet3/DotNet/BandPractices/Application/obj/Debug/netstandard2.1/Application.AssemblyInfoInputs.cache
+/home/dotnet3/DotNet/BandPractices/Application/obj/Debug/netstandard2.1/Application.AssemblyInfo.cs
+/home/dotnet3/DotNet/BandPractices/Application/obj/Debug/netstandard2.1/Application.csproj.CopyComplete
+/home/dotnet3/DotNet/BandPractices/Application/obj/Debug/netstandard2.1/Application.dll
+/home/dotnet3/DotNet/BandPractices/Application/obj/Debug/netstandard2.1/Application.pdb

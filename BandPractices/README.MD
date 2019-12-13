@@ -11,3 +11,6 @@ dotnet tool install --global dotnet-ef
 
 dotnet ef migrations add IntiMigration
 dotnet ef migrations add IntiMigration -p Persistence/ -s API
+
+# run this inside startup project
+dotnet watch run
