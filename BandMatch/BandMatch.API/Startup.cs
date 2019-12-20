@@ -31,6 +31,9 @@ namespace BandMatch.API
             (Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllers();
             services.AddCors();
+            services.AddScoped<IAuthRepository, AuthRepository>();
+            // AddScoped created once per request | add signleton sync issues 
+            // | addTransient lightweigth statesless services 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

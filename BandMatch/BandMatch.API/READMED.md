@@ -36,3 +36,16 @@ alt+p(Windows) shift+alt+p(macOS)
 if on .ts|.css|.html: go to spec.ts
 if on .spec.ts: go to previous
 
+[Required]
+[EmailAddress]
+[StringLength]
+
+## To Remove a Table from a Database
+
+1. Manualy delete table
+2. Remove records from _EFMigrationsHistory
+3. Run update database 
+
+Repository Pattern - mediates between the data source layer and the business layer of application
+
+Interface exposes methods that the controllers can utilize
