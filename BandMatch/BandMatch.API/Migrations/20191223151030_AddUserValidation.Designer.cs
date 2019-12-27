@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BandMatch.API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20191219220401_AddedDataAnnotationsAndRequired")]
-    partial class AddedDataAnnotationsAndRequired
+    [Migration("20191223151030_AddUserValidation")]
+    partial class AddUserValidation
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -25,40 +25,28 @@ namespace BandMatch.API.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasMaxLength(20);
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Instrument")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasMaxLength(20);
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasMaxLength(20);
+                        .HasColumnType("TEXT");
 
                     b.Property<byte[]>("PasswordHash")
-                        .IsRequired()
                         .HasColumnType("BLOB");
 
                     b.Property<byte[]>("PasswordSalt")
                         .HasColumnType("BLOB");
 
                     b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasMaxLength(20);
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Vocals")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasMaxLength(20);
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 

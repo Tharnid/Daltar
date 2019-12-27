@@ -49,3 +49,7 @@ if on .spec.ts: go to previous
 Repository Pattern - mediates between the data source layer and the business layer of application
 
 Interface exposes methods that the controllers can utilize
+
+DTO - data transer object...map domain models into simpler objects
+
+git rm appsettings.json --cached

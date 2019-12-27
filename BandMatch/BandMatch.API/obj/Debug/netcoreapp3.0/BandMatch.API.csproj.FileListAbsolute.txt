@@ -41,3 +41,11 @@
 /home/dotnet3/DotNet/BandMatch/BandMatch.API/bin/Debug/netcoreapp3.0/runtimes/win-x86/native/e_sqlite3.dll
 /home/dotnet3/DotNet/BandMatch/BandMatch.API/obj/Debug/netcoreapp3.0/BandMatch.API.csproj.CopyComplete
 /home/dotnet3/DotNet/BandMatch/BandMatch.API/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/dotnet3/DotNet/BandMatch/BandMatch.API/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/dotnet3/DotNet/BandMatch/BandMatch.API/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Logging.dll
+/home/dotnet3/DotNet/BandMatch/BandMatch.API/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Tokens.dll
+/home/dotnet3/DotNet/BandMatch/BandMatch.API/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll
+/home/dotnet3/DotNet/BandMatch/BandMatch.API/bin/Debug/netcoreapp3.0/System.IdentityModel.Tokens.Jwt.dll
+/home/dotnet3/DotNet/BandMatch/BandMatch.API/bin/Debug/netcoreapp3.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/dotnet3/DotNet/BandMatch/BandMatch.API/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Protocols.dll
+/home/dotnet3/DotNet/BandMatch/BandMatch.API/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

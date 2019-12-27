@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace BandMatch.API.Migrations
 {
-    public partial class AddedDataAnnotationsAndRequired : Migration
+    public partial class AddUserValidation : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,14 +13,14 @@ namespace BandMatch.API.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Username = table.Column<string>(maxLength: 20, nullable: false),
-                    FirstName = table.Column<string>(maxLength: 20, nullable: false),
-                    LastName = table.Column<string>(maxLength: 20, nullable: false),
-                    Email = table.Column<string>(nullable: false),
-                    PasswordHash = table.Column<byte[]>(nullable: false),
+                    Username = table.Column<string>(nullable: true),
+                    FirstName = table.Column<string>(nullable: true),
+                    LastName = table.Column<string>(nullable: true),
+                    Email = table.Column<string>(nullable: true),
+                    PasswordHash = table.Column<byte[]>(nullable: true),
                     PasswordSalt = table.Column<byte[]>(nullable: true),
-                    Instrument = table.Column<string>(maxLength: 20, nullable: false),
-                    Vocals = table.Column<string>(maxLength: 20, nullable: false)
+                    Instrument = table.Column<string>(nullable: true),
+                    Vocals = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
