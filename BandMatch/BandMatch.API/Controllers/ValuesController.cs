@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BandMatch.API.Controllers
 {
-    [Authorize]
+    // [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
@@ -32,7 +32,7 @@ namespace BandMatch.API.Controllers
         }
 
         // GET api/values/5
-        [AllowAnonymous]
+        //[AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetValue(int id)
         {

@@ -53,3 +53,22 @@ Interface exposes methods that the controllers can utilize
 DTO - data transer object...map domain models into simpler objects
 
 git rm appsettings.json --cached
+
+dotnet user-secrets init
+
+<pre>
+  Form Valid: {{loginForm.valid}}
+  Form Touched: {{loginForm.touched}}
+  Form Dirty: {{loginForm.dirty}}
+  Form Values: {{loginForm.value | json}}
+  Username Valid: {{username.valid}}
+  Username Touched: {{username.touched}}
+  Username Dirty: {{username.dirty}}
+  Username Value: {{username.value}}
+  Password Valid: {{password.valid}}
+  Password Touched: {{password.touched}}
+  Password Dirty: {{password.dirty}}
+  Password Value: {{password.value}}
+</pre>
+
+The job a component is to provide the data for the template!!!....gets and provides data

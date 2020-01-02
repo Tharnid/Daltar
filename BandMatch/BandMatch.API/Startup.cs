@@ -72,8 +72,6 @@ namespace BandMatch.API
             // 3.0 Cors goes after routing
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
-            // app.UseMvc();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
