@@ -21,4 +21,9 @@ constructor(private http: HttpClient) { }
       })
     ); // rxjs operators chained to a request
   }
+
+  // register
+  register(model: any) {
+    return this.http.post(this.baseUrl + 'register', model);
+  }
 }
