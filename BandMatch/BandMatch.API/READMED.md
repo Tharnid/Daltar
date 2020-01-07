@@ -72,3 +72,10 @@ dotnet user-secrets init
 </pre>
 
 The job a component is to provide the data for the template!!!....gets and provides data
+
+alt + o (to switch between component html and ts files)
+
+## Component Communcation
+
+parent to child
+child to parent

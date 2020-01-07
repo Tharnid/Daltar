@@ -1,0 +1,94 @@
+<form #registerForm="ngForm" (ngSubmit)="register()">
+  <br>
+  <h2 class="text-center text-primary">Sign Up</h2>
+  <hr>
+
+  <div class="form-group">
+    <input type="text" class="form-control" required name="username" [(ngModel)]="model.username" placeholder="Username">
+  </div>
+
+  <div class="form-group">
+    <label for="favoriteValue">What is your favorite value?</label>
+    <select class="form-control" id="favoriteValue">
+    <option *ngFor="let value of valuesFromHome" [value]="value">{{value.name}}</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <input type="password" class="form-control" required name="password" [(ngModel)]="model.password" placeholder="Password">   
+  </div>
+
+  <div class="form-group">
+    <input type="text" class="form-control" required name="firstname" [(ngModel)]="model.firstname" placeholder="First Name">   
+  </div>
+
+  <div class="form-group">
+    <input type="text" class="form-control" required name="lastname" [(ngModel)]="model.lastname" placeholder="Last Name">    
+  </div>
+
+  <div class="form-group">
+    <input type="email" class="form-control" required name="email" [(ngModel)]="model.email" placeholder="Email">    
+  </div>
+
+  <div class="form-group">
+    <label for="inputInstrument">Instrument</label>
+    <select id="inputInstrument" class="form-control" name="instrument" [(ngModel)]="model.instrument" required>
+      <option selected>Choose..</option>
+      <option>Bass</option>
+      <option>Drums</option>
+      <option>Guitar</option>
+      <option>keys</option>
+      <option>Multiple</option>
+      <option>Vocals</option>
+    </select>
+  </div>
+
+
+  <div class="form-group">
+    <label for="inputVocals">Vocals?</label>
+    <select id="inputVocals" class="form-control" name="vocals" [(ngModel)]="model.vocals" required>
+      <option selected>Choose..</option>
+      <option>Backup Vocals</option>
+      <option>Backup and Lead Vocals</option>
+      <option>Lead Vocals</option>
+      <option>Some Backup Vocals</option>
+      <option>None</option>
+    </select>
+<!--     <div class="form-check" [(ngModel)]="model.vocals" required>
+      <input class="form-check-input" type="radio" name="vocalRadios" id="vocalRadiosBackupVocals" value="option1" checked>
+      <label class="form-check-label" for="">
+        Backup Vocals
+      </label>
+    </div>
+    <div class="form-check" [(ngModel)]="model.vocals" required>
+      <input class="form-check-input" type="radio" name="vocalRadios" id="vocalRadiosBackupAndLeadVocals" value="option2">
+      <label class="form-check-label" for="">
+        Backup and Lead Vocals
+      </label>
+    </div>
+    <div class="form-check" [(ngModel)]="model.vocals" required>
+      <input class="form-check-input" type="radio" name="vocalRadios" id="vocalRadiosLeadVocals" value="option3">
+      <label class="form-check-label" for="">
+        Lead Vocals
+      </label>
+    </div>
+    <div class="form-check" [(ngModel)]="model.vocals" required>
+      <input class="form-check-input"type="radio" name="vocalRadios" id="vocalRadiosSomeBackupVocals" value="option4">
+      <label class="form-check-label" for="">
+        Some Backup Vocals
+      </label>
+    </div>
+    <div class="form-check" [(ngModel)]="model.vocals" required>
+      <input class="form-check-input" type="radio" name="vocalRadios" id="vocalRadiosNone" value="option5">
+      <label class="form-check-label" for="">
+        None
+      </label>
+    </div> -->
+  </div>
+
+  <div class="form-group text-center">
+    <button class="btn btn-success" type="submit">Register</button>
+    <button class="btn btn-danger" type="button" (click)="cancel()">Cancel</button>
+  </div>
+
+</form>
