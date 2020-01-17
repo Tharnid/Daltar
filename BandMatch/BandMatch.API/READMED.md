@@ -79,3 +79,8 @@ alt + o (to switch between component html and ts files)
 
 parent to child
 child to parent
+
+## decodedToken for displaying username...only displayed on login
+
+set token in auth service
+

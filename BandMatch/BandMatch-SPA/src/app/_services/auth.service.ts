@@ -21,6 +21,7 @@ constructor(private http: HttpClient) { }
         if (user) {
           localStorage.setItem('token', user.token);
           this.decodedToken = this.jwtHelper.decodeToken(user.token);
+          console.log(this.decodedToken);
         }
       })
     ); // rxjs operators chained to a request
@@ -35,6 +36,5 @@ constructor(private http: HttpClient) { }
   loggedIn() {
     const token = localStorage.getItem('token');
     return !this.jwtHelper.isTokenExpired(token);
-    // loggedIn in authService wipes out user dropdown
   }
 }
