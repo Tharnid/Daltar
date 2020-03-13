@@ -84,3 +84,6 @@ child to parent
 
 set token in auth service
 
+## Getting out of trouble with migrations
+
+referentialAction = cascade...user deleted everything associated is deleted 
