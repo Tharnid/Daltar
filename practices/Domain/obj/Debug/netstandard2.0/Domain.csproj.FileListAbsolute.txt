@@ -1,0 +1,8 @@
+/home/dotnet3/DotNet/practices/Domain/bin/Debug/netstandard2.0/Domain.deps.json
+/home/dotnet3/DotNet/practices/Domain/bin/Debug/netstandard2.0/Domain.dll
+/home/dotnet3/DotNet/practices/Domain/bin/Debug/netstandard2.0/Domain.pdb
+/home/dotnet3/DotNet/practices/Domain/obj/Debug/netstandard2.0/Domain.csprojAssemblyReference.cache
+/home/dotnet3/DotNet/practices/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfoInputs.cache
+/home/dotnet3/DotNet/practices/Domain/obj/Debug/netstandard2.0/Domain.AssemblyInfo.cs
+/home/dotnet3/DotNet/practices/Domain/obj/Debug/netstandard2.0/Domain.dll
+/home/dotnet3/DotNet/practices/Domain/obj/Debug/netstandard2.0/Domain.pdb

@@ -1,0 +1,13 @@
+/home/dotnet3/DotNet/practices/Application/bin/Debug/netstandard2.0/Application.deps.json
+/home/dotnet3/DotNet/practices/Application/bin/Debug/netstandard2.0/Application.dll
+/home/dotnet3/DotNet/practices/Application/bin/Debug/netstandard2.0/Application.pdb
+/home/dotnet3/DotNet/practices/Application/bin/Debug/netstandard2.0/Domain.dll
+/home/dotnet3/DotNet/practices/Application/bin/Debug/netstandard2.0/Persistence.dll
+/home/dotnet3/DotNet/practices/Application/bin/Debug/netstandard2.0/Domain.pdb
+/home/dotnet3/DotNet/practices/Application/bin/Debug/netstandard2.0/Persistence.pdb
+/home/dotnet3/DotNet/practices/Application/obj/Debug/netstandard2.0/Application.csprojAssemblyReference.cache
+/home/dotnet3/DotNet/practices/Application/obj/Debug/netstandard2.0/Application.AssemblyInfoInputs.cache
+/home/dotnet3/DotNet/practices/Application/obj/Debug/netstandard2.0/Application.AssemblyInfo.cs
+/home/dotnet3/DotNet/practices/Application/obj/Debug/netstandard2.0/Application.csproj.CopyComplete
+/home/dotnet3/DotNet/practices/Application/obj/Debug/netstandard2.0/Application.dll
+/home/dotnet3/DotNet/practices/Application/obj/Debug/netstandard2.0/Application.pdb
