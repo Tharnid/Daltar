@@ -14,6 +14,7 @@ dotnet ef migrations add InitialCreate -p Persistence/ -s API/
 use dotnet build to troubleshoot further
 
 dotnet ef database (drop and update)
+dotnet ef migrations add SeedValues
 
 Force .net core version
 
